@@ -23,6 +23,7 @@
   "author": "",
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
-    "less": "^2.7.1"
+    "less": "^2.7.1",
+    "webpack": "^1.13.1"
   }
 }

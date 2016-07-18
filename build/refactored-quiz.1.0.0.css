@@ -1,0 +1,27 @@
+body {
+  background-color: #FF91AF;
+  text-align: center;
+}
+.questions-page {
+  background-color: #F0FFFF;
+  border: 5px solid #000000;
+  padding: 60px 30px 60px 30px;
+  display: inline-blockssssss;
+}
+ul.answers {
+  list-style-type: none;
+}
+ul.answers li {
+  display: inline-block;
+  padding: 30px;
+}
+.results-page {
+  background-color: #F0FFFF;
+  border: 5px solid #000000;
+  padding: 60px 30px 60px 30px;
+  display: inline-blockssssss;
+}
+button {
+  background: #ffdee7;
+}
+/*# sourceMappingURL=refactored-quiz.1.0.0.css.map */
