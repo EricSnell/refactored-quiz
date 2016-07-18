@@ -7,10 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "mkdir": "mkdir -p build",
     "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:js",
+    "watch": "npm run watch:html",
     "clean": "rm -rf build",
     "build:html": "npm run clean:html && cp index.html build/",
     "clean:html": "rm -f build/index.html",
     "build:js": "npm run clean:js && cp index.js build/",
+    "watch:html": "npm run build:html && chokidar index.html -c 'npm run build:html'",
     "clean:js": "rm -f build/index.js"
   },
   "author": "",
