@@ -1,25 +1,31 @@
 <!doctype HTML>
 <meta charset="utf-8">
 
-<title>Hello World Quiz</title>
+<head>
+    <title>Hello World Quiz</title>
+    <link rel="stylesheet/less" type="text/css" href="css/index.less" />
+</head>
 
-<div class="questions-page">
-    <div>
-        <span class="question-current">0</span>/<span class="questions-total">0</span>
+<body>
+    <div class="questions-page">
+        <div>
+            <span class="question-current">0</span>/<span class="questions-total">0</span>
+        </div>
+        <div class="question">
+
+        </div>
+        <ul class="answers">
+        </ul>
     </div>
-    <div class="question">
 
+    <div class="results-page" style="display: none;">
+        <div>
+            You scored <span class="score">0</span>/<span class="questions-total">0</span>
+        </div>
+        <button type="button" class="restart-button">Restart</button>
     </div>
-    <ul class="answers">
-    </ul>
-</div>
-
-<div class="results-page" style="display: none;">
-    <div>
-        You scored <span class="score">0</span>/<span class="questions-total">0</span>
-    </div>
-    <button type="button" class="restart-button">Restart</button>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="index.js"></script>
+    <div class="bottom-section">Bottom section</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+    <script src="index.js"></script>
+</body>

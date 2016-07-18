@@ -1,5 +1,33 @@
 @baker-miller-pink: #FF91AF;
+@default: #F0FFFF;
+
+@light-pink: lighten(@baker-miller-pink, 10%);
 
 body {
 	background-color: @baker-miller-pink;
+}
+
+.questions-page {
+	background-color: @default;
+	.outside(5px);
+}
+
+ul.answers {
+	list-style-type: none;
+	li {
+		display: inline-block;
+		padding: 30px;
+	}
+}
+
+.results-page {
+	.questions-page;
+}
+
+.outside(@something) {
+	border: @something solid #000000;
+}
+
+button {
+	color: @light-pink;
 }
